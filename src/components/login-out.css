@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lobster&family=Pacifico&family=Roboto+Mono:wght@700&display=swap");
+
+.container {
+  font-family: "Josefin Sans", sans-serif;
+  width:300px;
+  margin: 50px auto;
+  padding: 50px 100px;
+  height: 200px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(219, 251, 248);
+}
+
+.container-in {
+  font-family: "Josefin Sans", sans-serif;
+  width:300px;
+  margin: 50px auto;
+  padding: 50px 100px;
+  height: 200px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(243, 211, 156);
+
+}
+.title-in {
+  text-align: center;
+  color: rgb(206, 144, 103);
+  margin-bottom:50px;
+}
+
+.logout {
+  text-align: center;
+  color: rgb(74, 213, 206);
+  margin-bottom:50px;
+}
+
+.btn-in {
+  display: block;
+  margin-top: 50px;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(243, 211, 156);
+}
+
+.btn-out{
+  display: block;
+  margin-top: 50px;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(155, 209, 248);
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lobster&family=Pacifico&family=Roboto+Mono:wght@700&display=swap');
+
+nav{
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  align-items: center;
+  height:50px;
+  background-color: rgb(74, 213, 206);
+  gap: 51px;
+  font-size: 20px;
+
+}
+
+nav a {
+text-decoration: none;
+color: antiquewhite;
+transition: all 0.4s ease;
+}
+nav a:hover{
+  color: rgb(8, 99, 95);
+}
+
+nav a svg {
+  margin-right: 5px;
+}
