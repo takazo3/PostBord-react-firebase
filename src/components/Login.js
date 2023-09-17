@@ -9,8 +9,8 @@ import "./login-out.css"
 
 export const Login = ({ setIsAuth }) => {
   const navigate = useNavigate();
-  const loginWithGoogle = () => {
-    signInWithPopup(auth, provider)
+  const loginWithGoogle = async() => {
+    await signInWithPopup(auth, provider)
     .then((result) => {
       localStorage.setItem("isAuth", true); 
       const user = result.user;

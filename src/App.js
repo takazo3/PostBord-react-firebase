@@ -9,6 +9,9 @@ import { useState, useEffect } from 'react';
 
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem('isAuth'));
+
+
+
   
   // useEffect(() => {
   //   // ログイン情報を取得するコード
